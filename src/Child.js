@@ -9,18 +9,20 @@ function Child() {
     let { transactions, addTransaction } = useContext(TransactionContext);
 
     // Add states for inputs
-    const [newAmount, setAmount] = useState();
+    var [newAmount, setAmount] = useState('');
     const [newText, setText] = useState("");
 
     // Transaction addition handler function
-    const additionHandler = (event) => {
-        event.preventDefault();
+    const additionHandler = () => {
 
         // If 0 is entered
         if (Number(newAmount) === 0) {
             alert("Please give an amount !");
             return false;
         }
+
+
+
 
         addTransaction({
             amount: Number(newAmount),
@@ -53,6 +55,30 @@ function Child() {
         return expense;
     }
 
+    const expenseHandler = (event) => {
+        event.preventDefault();
+        if (newAmount < 0) {
+            alert("You can't enter negative value");
+            setAmount('');
+            setText('');
+            return false;
+        }
+        newAmount *= -1;
+        setAmount(newAmount);
+        additionHandler();
+    }
+
+    const incomeHandler = (event) => {
+        event.preventDefault();
+        if (newAmount < 0) {
+            alert("You can't enter negative value");
+            setAmount('');
+            setText('');
+            return false;
+        }
+        setAmount(newAmount);
+        additionHandler();
+    }
 
     return (
         <div className="container">
@@ -106,7 +132,8 @@ function Child() {
                 <hr />
 
 
-                <form className="transaction-form" onSubmit={additionHandler}>
+                {/* FORM */}
+                <form className="transaction-form">
                     <label>
                         <span className="label">Text</span>
                         <br />
@@ -123,7 +150,7 @@ function Child() {
                     <br />
 
                     <label>
-                        <span className="label">Amount (Enter Negative value for expense)</span>
+                        <span className="label">Amount</span>
                         <br />
                         <input
                             onChange={(event) => setAmount(event.target.value)}
@@ -135,8 +162,8 @@ function Child() {
                     </label>
 
                     <br />
-
-                    <input className="submit-btn" type="submit" value="Add Transaction" />
+                    <button className="submit-btn" type="submit" onClick={incomeHandler}>Add Income</button>
+                    <button className="submit-btn" type="submit" onClick={expenseHandler}>Add Expense</button>
 
                 </form>
             </section>
