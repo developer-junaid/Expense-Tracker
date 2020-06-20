@@ -1,6 +1,6 @@
 # Expense Tracker Web Application
 
-<img src=""/>
+<img src="images/expensetracker3.png"/>
 
 
 http://your-expense-tracker.surge.sh/
