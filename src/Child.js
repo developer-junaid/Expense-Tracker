@@ -169,7 +169,7 @@ function Child() {
             </section>
             <footer>
                 <hr />
-                <span className="signature">  Developed By <a href="https://github.com/qjunaid623/" target="_blank">Junaid Qureshi</a></span>
+                <span className="signature">  Developed By <a href="https://github.com/qjunaid623/" rel="noopener noreferrer" target="_blank">Junaid Qureshi</a></span>
             </footer>
 
 
