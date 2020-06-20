@@ -95,11 +95,30 @@ h3 {
 }
 
 .submit-btn {
-  background-color: #610d0d;
-  border-radius: 20px;
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
   font-size: 20px;
-  color: white;
-  box-shadow: 0 3px 3px #35316f;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+  outline: none;
+  color: #fff;
+  background-color: #610d0d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px white;
+
+}
+
+
+.submit-btn:hover {background-color: #6e1c1c}
+
+.submit-btn:active {
+  background-color: #6e1c1c;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
 }
 
 .label {
