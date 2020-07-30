@@ -1,9 +1,9 @@
 # Expense Tracker Web Application
 
-<img src="images/expensetracker3.png"/>
+<img src="./images/expensetracker.png"/>
 
 
-http://your-expense-tracker.surge.sh/
+http://your-expensetracker.surge.sh/
 ### *An Expense Tracker Application that keeps track of your income and expenses*
 
 ## Task
