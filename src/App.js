@@ -4,8 +4,7 @@ import { TransactionProvider } from "./TransactionContext";
 
 function App() {
   return (
-    <TransactionProvider>
-      
+    <TransactionProvider>    
       <Child />
     </TransactionProvider>
   );

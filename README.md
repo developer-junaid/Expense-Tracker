@@ -1,6 +1,10 @@
 # Expense Tracker Web Application
 
+<<<<<<< HEAD
 <img src="./images/expensetracker.png"/>
+=======
+<img src="images/expensetracker.png"/>
+>>>>>>> parent of 378e83e... Update README.md
 
 
 http://your-expensetracker.surge.sh/

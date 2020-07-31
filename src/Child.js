@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import './App.css';
 import { TransactionContext } from './TransactionContext';
-
+import coins from './coins.svg';
 
 function Child() {
 
@@ -86,7 +86,7 @@ function Child() {
             {/* Heading */}
             <header>
 
-                <h1 className="text-center main-heading"><i className="material-icons icon">insights</i><br /> Expense Tracker</h1>
+                <h1 className="text-center main-heading"><img className='icon' src={coins} /><br /> Expense Tracker</h1>
                 <hr />
             </header>
 
@@ -127,8 +127,8 @@ function Child() {
 
 
             {/* Add Transaction */}
-            <section>
-                <h3>Add new transaction</h3>
+            <section >
+                <h3>Add New Transaction</h3>
                 <hr />
 
 
@@ -162,9 +162,10 @@ function Child() {
                     </label>
 
                     <br />
+                    <div className='buttons-section' >
                     <button className="submit-btn" type="submit" onClick={incomeHandler}>Add Income</button>
                     <button className="submit-btn" type="submit" onClick={expenseHandler}>Add Expense</button>
-
+                    </div>
                 </form>
             </section>
             <footer>
