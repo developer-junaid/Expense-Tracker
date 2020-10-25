@@ -1,10 +1,10 @@
 import React from "react";
-import Child from "./Child";
-import { TransactionProvider } from "./TransactionContext";
+import Child from "./components/Child";
+import { TransactionProvider } from "./context/TransactionContext";
 
 function App() {
   return (
-    <TransactionProvider>    
+    <TransactionProvider>
       <Child />
     </TransactionProvider>
   );

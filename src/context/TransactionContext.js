@@ -1,5 +1,5 @@
 import React, { createContext, useReducer } from "react";
-import TransactionReducer from "./TransactionReducer";
+import TransactionReducer from "../functions/TransactionReducer";
 
 // Make an array of transaction objects
 const initialTransactions = [];

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
-import "./App.css";
-import { TransactionContext } from "./TransactionContext";
-import coins from "./coins.svg";
+import ".././App.css";
+import { TransactionContext } from "../context/TransactionContext";
+import coins from ".././images/coins.svg";
 
 function Child() {
   // Use context to get transactions array
