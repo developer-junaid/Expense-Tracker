@@ -3,7 +3,7 @@
 <img src="./images/expensetracker.png"/>
 
 
-http://your-expensetracker.surge.sh/
+http://your-expense-tracker.surge.sh/
 ### *An Expense Tracker Application that keeps track of your income and expenses*
 
 ## Task
