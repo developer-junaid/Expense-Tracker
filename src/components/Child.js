@@ -1,75 +1,75 @@
-import React, { useContext, useState } from "react";
-import ".././App.css";
-import { TransactionContext } from "../context/TransactionContext";
-import coins from ".././images/coins.svg";
+import React, { useContext, useState } from "react"
+import ".././App.css"
+import { TransactionContext } from "../context/TransactionContext"
+import coins from ".././images/coins.svg"
 
 function Child() {
   // Use context to get transactions array
-  let { transactions, addTransaction } = useContext(TransactionContext);
+  let { transactions, addTransaction } = useContext(TransactionContext)
 
   // Add states for inputs
-  var [newAmount, setAmount] = useState("");
-  const [newText, setText] = useState("");
+  var [newAmount, setAmount] = useState("")
+  const [newText, setText] = useState("")
 
   // Transaction addition handler function
   const additionHandler = () => {
     // If 0 is entered
     if (Number(newAmount) === 0) {
-      alert("Please give an amount !");
-      return false;
+      alert("Please give an amount !")
+      return false
     }
 
     addTransaction({
       amount: Number(newAmount),
       text: newText,
-    });
+    })
 
-    setText("");
-    setAmount("");
-  };
+    setText("")
+    setAmount("")
+  }
 
   // Function to calculate total income
   const getIncome = () => {
-    let income = 0;
+    let income = 0
     for (var i = 0; i < transactions.length; i++) {
-      if (transactions[i].amount > 0) income += transactions[i].amount;
+      if (transactions[i].amount > 0) income += transactions[i].amount
     }
-    return income;
-  };
+    return income
+  }
 
   // Function to calculate total income
   const getExpense = () => {
-    let expense = 0;
+    let expense = 0
     for (var i = 0; i < transactions.length; i++) {
-      if (transactions[i].amount < 0) expense += transactions[i].amount;
+      if (transactions[i].amount < 0) expense += transactions[i].amount
     }
-    return expense;
-  };
+    return expense
+  }
 
   const expenseHandler = (event) => {
-    event.preventDefault();
+    event.preventDefault()
     if (newAmount < 0) {
-      alert("You can't enter negative value");
-      setAmount("");
-      setText("");
-      return false;
+      alert("You can't enter negative value")
+      setAmount("")
+      setText("")
+      return false
     }
-    newAmount *= -1;
-    setAmount(newAmount);
-    additionHandler();
-  };
+    newAmount *= -1
+    setAmount(newAmount)
+    additionHandler()
+  }
 
   const incomeHandler = (event) => {
-    event.preventDefault();
+    event.preventDefault()
     if (newAmount < 0) {
-      alert("You can't enter negative value");
-      setAmount("");
-      setText("");
-      return false;
+      alert("You can't enter negative value")
+      setAmount("")
+      setText("")
+      return false
     }
-    setAmount(newAmount);
-    additionHandler();
-  };
+    setAmount(newAmount)
+    additionHandler()
+  }
 
   return (
     <div className="container">
@@ -186,7 +186,7 @@ function Child() {
         </span>
       </footer>
     </div>
-  );
+  )
 }
 
-export default Child;
+export default Child
