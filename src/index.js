@@ -1,6 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
+import serviceWorker from "./serviceWorker"
 
 // Main Component
 function Main() {
@@ -8,8 +9,10 @@ function Main() {
     <div>
       <App />
     </div>
-  );
+  )
 }
 
-// Properties
-ReactDOM.render(<Main />, document.querySelector("#root"));
+ReactDOM.render(<Main />, document.querySelector("#root"))
+
+// Service worker for making it PWA
+serviceWorker()
