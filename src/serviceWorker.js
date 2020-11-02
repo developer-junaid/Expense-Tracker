@@ -8,5 +8,6 @@ const serviceWorker = () => {
       console.error(err)
     })
 }
+ 
 
 export default serviceWorker
