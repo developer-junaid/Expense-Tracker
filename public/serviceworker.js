@@ -1,6 +1,6 @@
 const CACHE_NAME = "expenseTrackerCache"
 
-const filesToCache = ["/", "manifest.json", "index.html", "offline.html"]
+const filesToCache = ["manifest.json", "index.html", "offline.html"]
 
 const self = this
 // Install SW
