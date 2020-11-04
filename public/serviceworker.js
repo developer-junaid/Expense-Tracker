@@ -5,6 +5,7 @@ const filesToCache = [
   "manifest.json",
   "index.html",
   "/static/js/0.chunk.js",
+  "/static/js/1.chunk.js",
   "/static/js/bundle.js",
   "/static/js/main.chunk.js",
   "/images/icon-192x192.png",
@@ -18,9 +19,8 @@ const filesToCache = [
   // "https://fonts.googleapis.com/css2?family=Acme&display=swap",
 ]
 
-const self = this
 // Install SW
-self.addEventListener("install", (event) => {
+this.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       cache.addAll(filesToCache)
@@ -29,7 +29,7 @@ self.addEventListener("install", (event) => {
 })
 
 // Listen for requests
-self.addEventListener("fetch", (event) => {
+this.addEventListener("fetch", (event) => {
   if (!navigator.onLine) {
     event.respondWith(
       caches.match(event.request).then((resp) => {
@@ -42,7 +42,7 @@ self.addEventListener("fetch", (event) => {
 })
 
 // Activate the SW
-self.addEventListener("activate", (event) => {
+this.addEventListener("activate", (event) => {
   const cacheWhiteList = []
   cacheWhiteList.push(CACHE_NAME)
 
