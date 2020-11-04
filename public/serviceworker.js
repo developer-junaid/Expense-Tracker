@@ -15,8 +15,6 @@ const filesToCache = [
   "https://fonts.googleapis.com/icon?family=Material+Icons",
   "https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap",
   "https://fonts.gstatic.com/s/acme/v11/RrQfboBx-C5_XxrBbk_m3Lg.woff2",
-
-  // "https://fonts.googleapis.com/css2?family=Acme&display=swap",
 ]
 
 // Install SW
