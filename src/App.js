@@ -10,13 +10,12 @@ function App() {
     .requestPermission()
     .then(() => messaging.getToken())
     .then((token) => {
-      console.log("token", token)
+      prompt("token", token)
     })
   return (
-    <div>Appjs</div>
-    // <TransactionProvider>
-    //   <Child />
-    // </TransactionProvider>
+    <TransactionProvider>
+      <Child />
+    </TransactionProvider>
   )
 }
 
