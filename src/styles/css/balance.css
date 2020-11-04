@@ -1,8 +1,6 @@
-.header-container {
+.balance-container {
   display: flex;
-  border: 2px solid black;
-  height: 10vh;
   justify-content: center;
   align-items: center;
-  
 }
+/*# sourceMappingURL=balance.css.map */

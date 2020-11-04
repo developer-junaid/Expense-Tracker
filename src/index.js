@@ -14,4 +14,4 @@ function Main() {
 ReactDOM.render(<Main />, document.querySelector("#root"))
 
 // Service worker for making it PWA
-swDev()
+// swDev()

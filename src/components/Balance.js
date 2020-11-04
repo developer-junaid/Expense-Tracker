@@ -1,4 +1,5 @@
 import React from "react"
+import "./../styles/css/balance.css"
 
 const Balance = () => {
   return (

@@ -1,0 +1,19 @@
+.header-container {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-container h1 {
+  margin: 0 auto;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+  background-image: url("./../../images/coins.svg");
+  background-size: cover;
+}
