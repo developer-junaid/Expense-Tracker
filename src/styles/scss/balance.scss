@@ -1,5 +1,22 @@
-.balance-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@import "./mixins";
+
+.balance-container {
+  @include flexCenter(column);
+}
+
+.balance {
+  border: 1px solid green;
+  width: 100%;
+  min-height: 40%;
+  @include flexCenter(column);
+}
+
+.income-expense-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  min-height: 60%;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
 }

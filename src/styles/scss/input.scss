@@ -1,5 +1,66 @@
+@import "./mixins";
+
 .input-container {
-  display: flex;
-  justify-content: center;
+  @include flexCenter(column);
+}
+
+/* Add Transaction Section */
+.transaction-form input {
+  width: 95%;
+  outline: none;
+  font-size: larger;
+  color: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 10px 0;
+  background: rgba(255, 254, 254, 0.692);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.transaction-form input:hover {
+  background: rgb(255, 254, 254);
+}
+
+.transaction-form input:focus {
+  background: rgb(255, 254, 254);
+}
+
+.buttons-section {
   align-items: center;
+  text-align: center;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  outline: none;
+  color: #fff;
+  background-color: #610d0d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px white;
+}
+
+.submit-btn:hover {
+  background-color: green;
+  outline: black;
+}
+
+.submit-btn:active {
+  background-color: green;
+  outline: black;
+  transform: translateY(1px);
+}
+
+.label {
+  font-weight: bolder;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px black;
 }

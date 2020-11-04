@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACpB",
+    "mappings": "AAEA,AAAA,iBAAiB,CAAC;ECAhB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,cAAc,EDFM,GAAG;CACxB",
     "sources": [
-        "../scss/footer.scss"
+        "../scss/footer.scss",
+        "../scss/_mixins.scss"
     ],
     "names": [],
     "file": "footer.css"

@@ -1,9 +1,10 @@
+@import "./mixins";
+
+$coin-image: "./../../images/coins.svg";
+
 .header-container {
-  display: flex;
-  height: 10vh;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
+  padding: 0.3rem;
+  @include flexCenter(row);
 }
 
 .header-container h1 {
@@ -14,6 +15,6 @@
   width: 4rem;
   height: 4rem;
   margin-left: 1rem;
-  background-image: url("./../../images/coins.svg");
+  background-image: url($coin-image);
   background-size: cover;
 }

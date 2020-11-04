@@ -60,7 +60,7 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 12vh minmax(300px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr) 12vh;
+    grid-template-rows: 10vh minmax(200px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr) 12vh;
     grid-template-areas: "header" "balance" "input" "history" "footer";
   }
 }

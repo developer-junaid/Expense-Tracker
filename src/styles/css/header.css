@@ -1,9 +1,9 @@
 .header-container {
+  padding: 0.3rem;
   display: flex;
-  height: 10vh;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  flex-direction: row;
 }
 
 .header-container h1 {
