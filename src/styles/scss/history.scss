@@ -3,3 +3,19 @@
 .history-container {
   @include flexCenter(column);
 }
+
+/* History section */
+.history-list {
+  margin: 0;
+  padding: 0;
+}
+
+.history-list > li {
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  margin: 8px;
+  box-shadow: 0 3px 2px #1bd5e2ce;
+  justify-content: space-between;
+  border-radius: 4px;
+}

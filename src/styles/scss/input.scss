@@ -1,12 +1,14 @@
-@import "./mixins";
-
 .input-container {
-  @include flexCenter(column);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Add Transaction Section */
 .transaction-form input {
-  width: 95%;
+  width: 50%;
+  justify-content: center;
   outline: none;
   font-size: larger;
   color: rgb(0, 0, 0);
@@ -35,7 +37,7 @@
   display: inline-block;
   padding: 15px 25px;
   margin: 10px;
-  font-size: 20px;
+  font-size: 14px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;

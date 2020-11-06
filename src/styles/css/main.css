@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: robot;
 }
 
 body {
@@ -61,7 +62,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 10vh minmax(200px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr) 12vh;
-    grid-template-areas: "header" "balance" "input" "history" "footer";
+    grid-template-areas: "header" "balance" "history" "input" "footer";
   }
 }
 /*# sourceMappingURL=main.css.map */

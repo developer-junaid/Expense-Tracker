@@ -1,4 +1,5 @@
 @import "./mixins";
+@import "./_fonts";
 
 $coin-image: "./../../images/coins.svg";
 
@@ -8,12 +9,18 @@ $coin-image: "./../../images/coins.svg";
 }
 
 .header-container h1 {
+  // font-family: "Sniglet", cursive;
+  font-family: "Source Sans Pro", sans-serif;
+  // font-family: 'Baloo Tammudu 2', cursive;
+  // font-family: 'Balsamiq Sans', cursive;
+  // font-family: "Poppins", sans-serif;
+
   margin: 0 auto;
 }
 
 .logo {
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5em;
   margin-left: 1rem;
   background-image: url($coin-image);
   background-size: cover;
