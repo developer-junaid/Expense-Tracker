@@ -216,7 +216,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.25fr 1fr 1fr 0.18fr;
-  grid-template-areas: "header header" "balance history" "input history" "footer footer";
+  grid-template-areas: "header header" "balance history" "balance history" "footer footer";
 }
 
 .header-container {
@@ -243,12 +243,6 @@ body {
   width: 100%;
 }
 
-.input-container {
-  grid-area: input;
-  height: 100%;
-  width: 100%;
-}
-
 /* MEDIA QUERIES */
 @media (max-width: 800px) {
   .main {
@@ -256,8 +250,8 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh minmax(200px, 1fr) minmax(300px, 1fr) minmax(300px, 1fr) 8vh;
-    grid-template-areas: "header" "balance" "history" "input" "footer";
+    grid-template-rows: 10vh minmax(200px, 1fr) minmax(300px, 1fr) 8vh;
+    grid-template-areas: "header" "balance" "history" "footer";
   }
 }
 /*# sourceMappingURL=main.css.map */

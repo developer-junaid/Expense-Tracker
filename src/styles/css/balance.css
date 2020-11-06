@@ -7,7 +7,6 @@
 
 .balance {
   width: 100%;
-  min-height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +17,6 @@
   display: flex;
   justify-content: space-around;
   width: 100%;
-  min-height: 60%;
   align-items: center;
   text-align: center;
 }
