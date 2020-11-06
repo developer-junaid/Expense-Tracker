@@ -6,14 +6,14 @@ $coin-image: "./../../images/coins.svg";
 .header-container {
   padding: 0.7rem;
   @include flexCenter(row);
-  // border-bottom: 2px solid $primary-color;
-  box-shadow: 2px 2px 4px $primary-color;
-  border-radius: 0 0 50px 50px;
+  background: $primary-color;
+  border-bottom: 1px solid black;
+  border-radius: 0 0 0px 50px;
 }
 
 .header-container h1 {
   margin: 0 auto;
-  color: $primary-color;
+  color: $asset-color;
 }
 
 .logo {

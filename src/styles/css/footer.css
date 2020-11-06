@@ -1,7 +1,38 @@
 .footer-container {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 0.2rem;
+  color: #163172;
+  border-top: 2px solid #163172;
+  border-radius: 0px 50px 0px 0;
+}
+
+.footer-container h3 {
+  margin-left: 8rem;
+}
+
+.icons-container {
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  text-align: center;
+  width: 10rem;
+  height: 100%;
+  margin-right: 8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #163172;
+}
+
+i {
+  width: 1.6rem;
+  height: auto;
+  margin: 0.1rem;
+  font-size: x-large;
 }
 /*# sourceMappingURL=footer.css.map */
