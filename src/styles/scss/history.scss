@@ -1,21 +1,51 @@
 @import "./mixins";
+@import "./variables";
 
 .history-container {
   @include flexCenter(column);
 }
 
-/* History section */
-.history-list {
-  margin: 0;
-  padding: 0;
+.history-card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  box-shadow: -2px -2px 3px gray;
+  width: 80%;
+  border-radius: 0 0 0 50px;
+  height: 90%;
+}
+
+.list {
+  height: 90%;
+  overflow-y: scroll;
 }
 
 .history-list > li {
   display: flex;
-  background-color: white;
-  padding: 10px;
-  margin: 8px;
-  box-shadow: 0 3px 2px #1bd5e2ce;
+  font-size: 1rem;
   justify-content: space-between;
-  border-radius: 4px;
+  padding: 0.7rem;
+  margin: 1rem;
+  color: $primary-color;
+  font-weight: 700;
+  box-shadow: 1px 2px 3px $primary-color, 3px 0px 1px $primary-color;
+  
+}
+
+.heading {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 0 50px;
+  background: $primary-color;
+
+  border-top: 1px solid black;
+}
+
+.heading h3 {
+  color: $asset-color;
 }

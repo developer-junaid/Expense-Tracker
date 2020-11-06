@@ -1,42 +1,63 @@
 import React from "react"
 import "./../styles/css/history.css"
 
-const History = ({ transactions }) => {
+const History = () => {
   return (
     <div className="history-container">
-      {/* History */}
-      <section>
-        <h3>History</h3>
-        <hr />
-        <ul className="history-list">
-          {/* Include values from transactions array from context
-          {transactions.map((transaction, index) => (
-            <li key={index}>
-              <span>{transaction.text}</span>
-              <span>${transaction.amount}</span>
+      <div className="history-card">
+        <div className="list">
+          <ul className="history-list">
+            <li>
+              <span>Pizza</span>
+              <span>$20</span>
             </li>
-          ))} */}
+            <li>
+              <span>Salary</span>
+              <span>$20</span>
+            </li>
+            <li>
+              <span>Outing</span>
+              <span>$20</span>
+            </li>
+            <li>
+              <span>Shopping</span>
+              <span>$20</span>
+            </li>
+            <li>
+              <span>Shopping</span>
+              <span>$20</span>
+            </li>
+            <li>
+              <span>Shopping</span>
+              <span>$20</span>
+            </li>
+            <li>
+              <span>Shopping</span>
+              <span>$20</span>
+            </li>
+            <li>
+              <span>Shopping</span>
+              <span>$20</span>
+            </li>
+            <li>
+              <span>Shopping</span>
+              <span>$20</span>
+            </li>
+            <li>
+              <span>Shopping</span>
+              <span>$20</span>
+            </li>
+            <li>
+              <span>Shopping</span>
+              <span>$20</span>
+            </li>
+          </ul>
+        </div>
+        <div className="heading">
+          <h3>History</h3>
+        </div>
 
-          {/* {transactions.map((transaction, index) => ( */}
-          <li>
-            <span>pizza</span>
-            <span>$20</span>
-          </li>
-          <li>
-            <span>pizza</span>
-            <span>$20</span>
-          </li>
-          <li>
-            <span>pizza</span>
-            <span>$20</span>
-          </li>
-          <li>
-            <span>pizza</span>
-            <span>$20</span>
-          </li>
-          {/* ))} */}
-        </ul>
-      </section>
+      </div>
     </div>
   )
 }

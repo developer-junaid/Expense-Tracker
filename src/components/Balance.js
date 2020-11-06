@@ -4,9 +4,8 @@ import "./../styles/css/balance.css"
 const Balance = () => {
   return (
     <div className="balance-container">
-      <div className="balance">
-        <h3>Current Balance : $1000</h3>
-      </div>
+      <h3>Current Balance : $1000</h3>
+
       <div className="income-expense-container">
         <h4>
           Income <br /> $200

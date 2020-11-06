@@ -9,8 +9,7 @@
   text-align: left;
   padding: 0.2rem;
   color: $primary-color;
-  border-top: 2px solid $primary-color;
-  border-radius: 0px 50px 0px 0;
+  box-shadow: -1px -1px 2px gray;
 }
 
 .footer-container h3 {

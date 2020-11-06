@@ -5,11 +5,15 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <h3>Developed by: Junaid Qureshi</h3>
+
       <div className="icons-container">
+        <a title='portfolio' href="http://junaid-qureshi.surge.sh/" rel="noopener noreferrer" target="_blank">
+          <i className="fas fa-address-card "></i>
+        </a>&nbsp;
         <a title='github' href="https://github.com/qjunaid623/" rel="noopener noreferrer" target="_blank">
           <i className="fab fa-github-square "></i>
         </a>
-        <a title='facebook' href="https://facebook.com/developer-junaid" rel="noopener noreferrer" target="_blank">
+        <a title='facebook' href="https://www.facebook.com/profile.php?id=100041078220896" rel="noopener noreferrer" target="_blank">
           <i className="fab fa-facebook-square "></i>
         </a>
         <a title='linkedin' href="https://www.linkedin.com/in/developer-junaid/" rel="noopener noreferrer" target="_blank">
@@ -18,7 +22,13 @@ const Footer = () => {
         <a title='twitter' href="https://twitter.com/Junaid084869/" rel="noopener noreferrer" target="_blank">
           <i className="fab fa-twitter-square "></i>
         </a>
+        <a title='gmail' href="mailto:qjunaid623@gmail.com" rel="noopener noreferrer" target="_blank">
+          <i className="fas fa-envelope-square "></i>
+        </a>
+
       </div>
+
+
     </div>
   )
 }
