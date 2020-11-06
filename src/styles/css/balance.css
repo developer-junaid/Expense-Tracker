@@ -6,7 +6,6 @@
 }
 
 .balance {
-  border: 1px solid green;
   width: 100%;
   min-height: 40%;
   display: flex;
@@ -22,6 +21,5 @@
   min-height: 60%;
   align-items: center;
   text-align: center;
-  border: 1px solid black;
 }
 /*# sourceMappingURL=balance.css.map */

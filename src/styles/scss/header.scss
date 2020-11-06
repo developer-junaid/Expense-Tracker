@@ -1,27 +1,25 @@
 @import "./mixins";
-@import "./_fonts";
+@import "./variables";
 
 $coin-image: "./../../images/coins.svg";
 
 .header-container {
-  padding: 0.3rem;
+  padding: 0.7rem;
   @include flexCenter(row);
+  // border-bottom: 2px solid $primary-color;
+  box-shadow: 2px 2px 4px $primary-color;
+  border-radius: 0 0 50px 50px;
 }
 
 .header-container h1 {
-  // font-family: "Sniglet", cursive;
-  font-family: "Source Sans Pro", sans-serif;
-  // font-family: 'Baloo Tammudu 2', cursive;
-  // font-family: 'Balsamiq Sans', cursive;
-  // font-family: "Poppins", sans-serif;
-
   margin: 0 auto;
+  color: $primary-color;
 }
 
 .logo {
-  width: 3.5rem;
-  height: 3.5em;
-  margin-left: 1rem;
+  width: 3.2rem;
+  height: 3.2em;
+  margin-left: 2rem;
   background-image: url($coin-image);
   background-size: cover;
 }

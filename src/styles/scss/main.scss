@@ -1,4 +1,5 @@
 @import "./resets";
+@import "./_fonts";
 
 body {
   width: 100%;
@@ -24,34 +25,33 @@ body {
   grid-area: header;
   height: 100%;
   width: 100%;
-  border: 1px solid black;
 }
 
 .footer-container {
   grid-area: footer;
   height: 100%;
   width: 100%;
-  border: 1px solid black;
+  // border: 1px solid black;
 }
 
 .balance-container {
   grid-area: balance;
   height: 100%;
-  border: 1px solid black;
+  // border: 1px solid black;
   width: 100%;
 }
 
 .history-container {
   grid-area: history;
   height: 100%;
-  border: 1px solid black;
+  // border: 1px solid black;
   width: 100%;
 }
 
 .input-container {
   grid-area: input;
   height: 100%;
-  border: 1px solid black;
+  // border: 1px solid black;
   width: 100%;
 }
 

@@ -1,5 +1,5 @@
 import React from "react"
-import './../styles/css/header.css'
+import "./../styles/css/header.css"
 
 const Header = () => {
   return (
@@ -9,6 +9,6 @@ const Header = () => {
       <h1>Expense Tracker</h1>
     </div>
   )
-} 
+}
 
 export default Header
