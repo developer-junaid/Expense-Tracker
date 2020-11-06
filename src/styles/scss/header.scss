@@ -8,17 +8,18 @@ $coin-image: "./../../images/coins.svg";
   @include flexCenter(row);
   background: $primary-color;
   border-bottom: 1px solid black;
-  border-radius: 0 0 0 50px;
+  border-radius: 0 0 0 30px;
 }
 
 .header-container h1 {
   margin: 0 auto;
+  font-size: 1.4rem;
   color: $asset-color;
 }
 
 .logo {
-  width: 3.2rem;
-  height: 3.2em;
+  width: 2.5rem;
+  height: 2.5em;
   margin-left: 2rem;
   background-image: url($coin-image);
   background-size: cover;

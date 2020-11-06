@@ -8,12 +8,13 @@
   align-items: center;
   text-align: left;
   padding: 0.2rem;
-  color: $primary-color;
   box-shadow: -1px -1px 2px gray;
 }
 
 .footer-container h3 {
   margin-left: 8rem;
+  font-size: 1rem;
+  color: rgb(106, 103, 103);
 }
 
 .icons-container {
@@ -36,4 +37,28 @@ i {
   height: auto;
   margin: 0.1rem;
   font-size: x-large;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.github {
+  color: black;
+}
+
+.linkedIn {
+  color: #0e76a8;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.gmail {
+  color: #bb001b;
+}
+
+.portfolio {
+  color: #00630a;
 }

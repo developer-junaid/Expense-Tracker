@@ -1,23 +1,109 @@
 .balance-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.balance {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.balance-container .balance-heading {
+  color: #163172;
+  font-weight: 600;
+  margin: 1rem;
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.2rem;
 }
 
 .income-expense-container {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
+  height: 5rem;
   align-items: center;
   text-align: center;
+}
+
+.income-expense-container h4 {
+  width: 50%;
+  font-size: 1rem;
+  border-radius: 0 50px 50px 50px;
+  box-shadow: 2px 2px 2px #163172;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.dollar {
+  color: #7a7878;
+}
+
+.transaction-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.transaction-form label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #163172;
+  margin-top: 1.2rem;
+}
+
+.transaction-form input {
+  width: 70%;
+  display: flex;
+  margin: 0.2rem auto;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 0 10px 0px 0px;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-section .submit-btn {
+  padding: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  width: 13rem;
+}
+
+.add-income-btn {
+  background: #163172;
+  transition: 1s;
+  color: white;
+  border-radius: 0 20px 0px 30px;
+  outline: none;
+  font-weight: 500;
+}
+
+.add-expense-btn {
+  background: white;
+  color: #163172;
+  font-weight: 800;
+  border-radius: 0 20px 0px 30px;
+  outline: none;
+  transition: 0.5s;
+}
+
+.add-income-btn:hover {
+  background: white;
+  color: #163172;
+  font-weight: 800;
+}
+
+.add-expense-btn:hover {
+  background: #163172;
+  color: white;
+  font-weight: 500;
 }
 /*# sourceMappingURL=balance.css.map */

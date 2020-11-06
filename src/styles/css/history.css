@@ -11,7 +11,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: space-around;
-  box-shadow: -2px -2px 3px gray;
+  box-shadow: -1px -1px 2px gray;
   width: 80%;
   border-radius: 0 0 0 50px;
   height: 90%;
@@ -24,12 +24,12 @@
 
 .history-list > li {
   display: flex;
-  font-size: 1rem;
+  font-size: 0.8rem;
   justify-content: space-between;
   padding: 0.7rem;
   margin: 1rem;
   color: #163172;
-  font-weight: 700;
+  font-weight: 600;
   box-shadow: 1px 2px 3px #163172, 3px 0px 1px #163172;
 }
 
@@ -46,5 +46,6 @@
 
 .heading h3 {
   color: #fff;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=history.css.map */
