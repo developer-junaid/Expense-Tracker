@@ -9,8 +9,11 @@ function App() {
     .requestPermission()
     .then(() => messaging.getToken())
     .then((token) => {
-      prompt("token", token)
+      // prompt("token", token)
+      localStorage.setItem("token",JSON.stringify(token))
     })
+
+  
 
   return <Main />
 }
