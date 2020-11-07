@@ -11,8 +11,6 @@
 
 .balance-container .balance-heading {
   color: $primary-color;
-  // color: black;
-  // background: $primary-color;
   color: $primary-color;
   text-shadow: 1px 1px 2px rgb(34, 93, 141);
   font-weight: 600;
@@ -130,6 +128,20 @@
   }
 
   .transaction-form input {
-    min-width: 90%;
+    min-width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .buttons-section .submit-btn {
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 8rem;
+  }
+
+  .transaction-form input {
+    min-width: 80%;
   }
 }

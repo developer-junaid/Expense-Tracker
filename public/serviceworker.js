@@ -14,10 +14,10 @@ const filesToCache = [
   " /static/js/main.a17110f5.chunk.js",
   "/images/icon-192x192.png",
   "/images/coins.svg",
-  "https://fonts.googleapis.com/css2?family=Acme&display=swap",
-  "https://fonts.googleapis.com/icon?family=Material+Icons",
-  "https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap",
-  "https://fonts.gstatic.com/s/acme/v11/RrQfboBx-C5_XxrBbk_m3Lg.woff2",
+  "https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2",
+  "https://pro.fontawesome.com/releases/v5.10.0/css/all.css",
+  "https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.woff2",
+   "https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.woff2",
 ]
 
 // Install SW
