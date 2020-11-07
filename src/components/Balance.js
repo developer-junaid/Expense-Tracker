@@ -69,22 +69,24 @@ const Balance = () => {
 
   return (
     <div className="balance-container">
-      <h3 className="balance-heading">
+      <h1 className="balance-heading">
         Current Balance : <span>${getIncome() + getExpense()}</span>
-      </h3>
+      </h1>
 
       <div className="income-expense-container">
-        <h4 className="income">
+        <h2 className="income">
           Income <br /> <span>${getIncome()}</span>
-        </h4>
-        <h4 className="expense">
+        </h2>
+        <h2 className="expense">
           Expense <br /> <span className="dollar">${getExpense()}</span>
-        </h4>
+        </h2>
       </div>
 
       <form className="transaction-form">
-        <label>Text </label>
+        <label htmlFor="text">Text </label>
         <input
+          id="text"
+          autoFocus
           required
           type="text"
           placeholder="Enter text..."
@@ -92,9 +94,10 @@ const Balance = () => {
           value={newText}
         />
 
-        <label>Amount</label>
+        <label htmlFor="amount">Amount</label>
         <input
           required
+          id="amount"
           type="number"
           placeholder="Enter amount..."
           onChange={(event) => setAmount(event.target.value)}
