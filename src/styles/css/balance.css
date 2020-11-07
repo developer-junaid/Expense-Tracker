@@ -8,9 +8,11 @@
 
 .balance-container .balance-heading {
   color: #163172;
+  color: #163172;
+  text-shadow: 1px 1px 2px #225d8d;
   font-weight: 600;
   margin: 1rem;
-  width: 80%;
+  width: 88%;
   padding: 1rem;
   font-size: 1.2rem;
 }
@@ -31,6 +33,12 @@
   box-shadow: 2px 2px 2px #163172;
   margin: 0.5rem;
   padding: 1rem;
+}
+
+.income {
+  background: #163172;
+  color: #fff;
+  box-shadow: 2px 2px 2px black !important;
 }
 
 .dollar {
@@ -111,11 +119,12 @@
   .buttons-section .submit-btn {
     padding: 1rem;
     margin: 0.5rem 1rem;
-    cursor: pointer;
     font-size: 1rem;
     margin-bottom: 1rem;
     width: 10rem;
-    transition: all 0.3s ease-in-out 0s;
+  }
+  .transaction-form input {
+    min-width: 90%;
   }
 }
 /*# sourceMappingURL=balance.css.map */

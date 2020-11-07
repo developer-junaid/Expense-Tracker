@@ -70,15 +70,14 @@ const Balance = () => {
   return (
     <div className="balance-container">
       <h3 className="balance-heading">
-        Current Balance :{" "}
-        <span className="dollar">${getIncome() + getExpense()}</span>
+        Current Balance : <span>${getIncome() + getExpense()}</span>
       </h3>
 
       <div className="income-expense-container">
-        <h4>
-          Income <br /> <span className="dollar">${getIncome()}</span>
+        <h4 className="income">
+          Income <br /> <span>${getIncome()}</span>
         </h4>
-        <h4>
+        <h4 className="expense">
           Expense <br /> <span className="dollar">${getExpense()}</span>
         </h4>
       </div>
