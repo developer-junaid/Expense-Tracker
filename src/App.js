@@ -10,10 +10,11 @@ function App() {
     .then(() => messaging.getToken())
     .then((token) => {
       // prompt("token", token)
-      localStorage.setItem("token",JSON.stringify(token))
+      localStorage.setItem("token", JSON.stringify(token))
     })
-
-  
+    .catch((err) => {
+      console.warn("Notifications blocked !")
+    })
 
   return <Main />
 }
