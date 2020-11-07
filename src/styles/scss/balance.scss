@@ -79,11 +79,11 @@
   font-size: 1rem;
   margin-bottom: 1rem;
   width: 13rem;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .add-income-btn {
   background: $primary-color;
-  transition: 1s;
   color: white;
   border-radius: 0 20px 0px 30px;
   outline: none;
@@ -96,7 +96,6 @@
   font-weight: 800;
   border-radius: 0 20px 0px 30px;
   outline: none;
-  transition: 0.5s;
 }
 
 .add-income-btn:hover {
