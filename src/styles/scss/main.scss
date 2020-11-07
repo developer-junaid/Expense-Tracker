@@ -1,6 +1,6 @@
 @import "./resets";
 @import "./_fonts";
-
+@import "./variables";
 body {
   width: 100%;
   min-height: 100vh;
@@ -45,15 +45,15 @@ body {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 800px) {
+@media (max-width: $mobile) {
   .main {
     width: 100%;
-    min-height: 100vh;
+    min-height: 200vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows:
       10vh minmax(200px, 1fr) minmax(300px, 1fr)
-      8vh;
+      12vh;
     grid-template-areas:
       "header"
       "balance"

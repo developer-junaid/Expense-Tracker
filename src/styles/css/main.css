@@ -244,13 +244,13 @@ body {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .main {
     width: 100%;
-    min-height: 100vh;
+    min-height: 200vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh minmax(200px, 1fr) minmax(300px, 1fr) 8vh;
+    grid-template-rows: 10vh minmax(200px, 1fr) minmax(300px, 1fr) 12vh;
     grid-template-areas: "header" "balance" "history" "footer";
   }
 }

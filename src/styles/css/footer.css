@@ -59,4 +59,16 @@ i {
 .portfolio {
   color: #00630a;
 }
+
+@media (max-width: 850px) {
+  .icons-container {
+    margin-right: 0rem;
+  }
+  .footer-container h3 {
+    margin-left: 0rem;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
+}
 /*# sourceMappingURL=footer.css.map */

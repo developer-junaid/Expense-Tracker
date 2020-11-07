@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .balance-container .balance-heading {
@@ -108,4 +109,16 @@
   background: $primary-color;
   color: white;
   font-weight: 500;
+}
+
+@media (max-width: $mobile) {
+  .buttons-section .submit-btn {
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    transition: all 0.3s ease-in-out 0s;
+  }
 }

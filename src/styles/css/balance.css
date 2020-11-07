@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .balance-container .balance-heading {
@@ -75,11 +76,11 @@
   font-size: 1rem;
   margin-bottom: 1rem;
   width: 13rem;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .add-income-btn {
   background: #163172;
-  transition: 1s;
   color: white;
   border-radius: 0 20px 0px 30px;
   outline: none;
@@ -92,7 +93,6 @@
   font-weight: 800;
   border-radius: 0 20px 0px 30px;
   outline: none;
-  transition: 0.5s;
 }
 
 .add-income-btn:hover {
@@ -105,5 +105,17 @@
   background: #163172;
   color: white;
   font-weight: 500;
+}
+
+@media (max-width: 850px) {
+  .buttons-section .submit-btn {
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    transition: all 0.3s ease-in-out 0s;
+  }
 }
 /*# sourceMappingURL=balance.css.map */

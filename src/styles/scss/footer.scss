@@ -62,3 +62,17 @@ i {
 .portfolio {
   color: #00630a;
 }
+
+@media (max-width: $mobile) {
+  .icons-container {
+    margin-right: 0rem;
+  }
+
+  .footer-container h3 {
+    margin-left: 0rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+}
