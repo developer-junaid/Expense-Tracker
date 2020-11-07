@@ -22,4 +22,8 @@
   background-image: url("./../../images/coins.svg");
   background-size: cover;
 }
+
+.copy-btn {
+  cursor: pointer;
+}
 /*# sourceMappingURL=header.css.map */

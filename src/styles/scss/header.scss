@@ -24,3 +24,7 @@ $coin-image: "./../../images/coins.svg";
   background-image: url($coin-image);
   background-size: cover;
 }
+
+.copy-btn {
+  cursor: pointer;
+}
