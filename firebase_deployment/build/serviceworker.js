@@ -15,6 +15,7 @@ const filesToCache = [
   "/images/icon-192x192.png",
   "/images/coins.svg",
   "https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.woff2",
+  "https://pro.fontawesome.com/releases/v5.10.0/css/all.css",
   "https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.woff2",
 ]
 
