@@ -1,16 +1,16 @@
-import React, { createContext, useReducer } from "react"
-import TransactionReducer from "../functions/TransactionReducer"
+import React, { createContext, useReducer } from "react";
+import TransactionReducer from "../functions/TransactionReducer";
 
 // Make an array of transaction objects
-const initialTransactions = []
+const initialTransactions = [];
 
 // Create the context and export it
-export const TransactionContext = createContext(initialTransactions)
+export const TransactionContext = createContext(initialTransactions);
 
 // Create provider
 export const TransactionProvider = ({ children }) => {
   // Use Reducer
-  let [state, dispatch] = useReducer(TransactionReducer, initialTransactions)
+  let [state, dispatch] = useReducer(TransactionReducer, initialTransactions);
 
   //Function  Add transaction
   function addTransaction(transactionObj) {
@@ -20,7 +20,7 @@ export const TransactionProvider = ({ children }) => {
         text: transactionObj.text,
         amount: transactionObj.amount,
       },
-    })
+    });
   }
 
   return (
@@ -32,5 +32,5 @@ export const TransactionProvider = ({ children }) => {
     >
       {children}
     </TransactionContext.Provider>
-  )
-}
+  );
+};
