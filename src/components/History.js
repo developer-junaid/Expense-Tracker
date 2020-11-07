@@ -3,7 +3,7 @@ import "./../styles/css/history.css"
 import { TransactionContext } from "./../context/TransactionContext"
 
 const History = () => {
-  let { transactions, addTransaction } = useContext(TransactionContext)
+  let { transactions } = useContext(TransactionContext)
 
   return (
     <div className="history-container">

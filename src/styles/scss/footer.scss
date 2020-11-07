@@ -39,6 +39,11 @@ i {
   font-size: x-large;
 }
 
+i:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 1px 6px gray;
+}
+
 .facebook {
   color: #3b5998;
 }

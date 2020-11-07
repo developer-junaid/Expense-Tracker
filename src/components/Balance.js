@@ -5,7 +5,7 @@ import { TransactionContext } from "./../context/TransactionContext"
 const Balance = () => {
   let { transactions, addTransaction } = useContext(TransactionContext)
   const [newText, setText] = useState("")
-  var [newAmount, setAmount] = useState("")
+  let [newAmount, setAmount] = useState("")
 
   // Transaction addition handler function
   const additionHandler = () => {
