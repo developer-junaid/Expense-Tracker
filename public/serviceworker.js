@@ -10,7 +10,7 @@ const filesToCache = [
   "/static/js/main.chunk.js",
   "/static/media/coins.e505caba.svg",
   "/static/css/main.000ed9ea.chunk.css",
-  "/static/js/2.3ab16f3e.chunk.js",
+  // "/static/js/2.3ab16f3e.chunk.js",
   " /static/js/main.a17110f5.chunk.js",
   "/images/icon-192x192.png",
   "/images/coins.svg",
