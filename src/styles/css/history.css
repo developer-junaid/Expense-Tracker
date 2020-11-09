@@ -30,7 +30,16 @@
   margin: 1rem;
   color: #163172;
   font-weight: 600;
-  box-shadow: 1px 2px 3px #163172, 3px 0px 1px #163172;
+}
+
+.history-list .income-item {
+  box-shadow: 2px 2px 4px rgba(92, 130, 31, 0.925), 2px 2px 1px rgba(92, 130, 31, 0.925);
+  border: 1px solid gray;
+}
+
+.history-list .expense-item {
+  box-shadow: 2px 2px 4px rgba(199, 57, 25, 0.912), 2px 2px 1px rgba(199, 57, 25, 0.912);
+  border: 1px solid gray;
 }
 
 .heading {

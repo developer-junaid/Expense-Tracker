@@ -30,7 +30,16 @@
   margin: 1rem;
   color: $primary-color;
   font-weight: 600;
-  box-shadow: 1px 2px 3px $primary-color, 3px 0px 1px $primary-color;
+}
+
+.history-list .income-item {
+  box-shadow: 2px 2px 4px $income-shadow, 2px 2px 1px $income-shadow;
+  border: 1px solid gray;
+}
+
+.history-list .expense-item {
+  box-shadow: 2px 2px 4px $expense-shadow, 2px 2px 1px $expense-shadow;
+  border: 1px solid gray;
 }
 
 .heading {

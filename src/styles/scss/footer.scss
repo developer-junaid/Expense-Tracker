@@ -32,40 +32,16 @@ a {
   color: $primary-color;
 }
 
-i {
+img {
   width: 1.6rem;
-  height: auto;
+  height: 1.6rem;
   margin: 0.1rem;
   font-size: x-large;
 }
 
-i:hover {
+img:hover {
   transform: translateY(-2px);
   box-shadow: 1px 1px 6px gray;
-}
-
-.facebook {
-  color: #3b5998;
-}
-
-.github {
-  color: black;
-}
-
-.linkedIn {
-  color: #0e76a8;
-}
-
-.twitter {
-  color: #00acee;
-}
-
-.gmail {
-  color: #bb001b;
-}
-
-.portfolio {
-  color: #00630a;
 }
 
 @media (max-width: $mobile) {
@@ -73,7 +49,7 @@ i:hover {
     margin-right: 0rem;
   }
 
-  i {
+  img {
     width: 1.7rem;
     height: auto;
     margin: 0.3rem;

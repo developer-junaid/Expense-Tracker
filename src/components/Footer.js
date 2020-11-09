@@ -1,5 +1,12 @@
 import React from "react"
 import "./../styles/css/footer.css"
+import portfolioImage from './../images/portfolio.svg'
+import gmailImage from './../images/gmail.svg'
+import twitterImage from './../images/twitter.svg'
+import linkedinImage from './../images/linkedin.svg'
+import facebookImage from './../images/fb.svg'
+import githubImage from './../images/github.svg'
+
 
 const Footer = () => {
   return (
@@ -8,22 +15,22 @@ const Footer = () => {
 
       <div className="icons-container">
         <a title='portfolio' href="http://junaid-qureshi.surge.sh/" rel="noopener noreferrer" target="_blank">
-          <i className="fas fa-address-card portfolio"></i>
+          <img src={portfolioImage} alt="portfolio" />
         </a>&nbsp;
         <a title='github' href="https://github.com/qjunaid623/" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-github-square github"></i>
+          <img src={githubImage} alt="github" />
         </a>
         <a title='facebook' href="https://www.facebook.com/profile.php?id=100041078220896" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-facebook-square facebook"></i>
+          <img src={facebookImage} alt="facebook" />
         </a>
         <a title='linkedin' href="https://www.linkedin.com/in/developer-junaid/" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-linkedin linkedin"></i>
+          <img src={linkedinImage} alt="linkedin" />
         </a>
         <a title='twitter' href="https://twitter.com/Junaid084869/" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-twitter-square twitter"></i>
+          <img src={twitterImage} alt="twitter" />
         </a>
         <a title='gmail' href="mailto:qjunaid623@gmail.com" rel="noopener noreferrer" target="_blank">
-          <i className="fas fa-envelope-square gmail"></i>
+          <img src={gmailImage} alt="gmail" />
         </a>
 
       </div>
