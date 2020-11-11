@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Source Sans";
-  src: url("./../fonts/SourceSansPro-Regular.ttf") format("truetype");
+  src: local(serif), url("./../fonts/SourceSansPro-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 * {
@@ -12,7 +13,8 @@
 
 @font-face {
   font-family: "Source Sans";
-  src: url("./../fonts/SourceSansPro-Regular.ttf") format("truetype");
+  src: local(serif), url("./../fonts/SourceSansPro-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 body {
