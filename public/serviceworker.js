@@ -9,15 +9,11 @@ const filesToCache = [
   "/static/js/bundle.js",
   "/static/js/main.chunk.js",
   "/static/media/coins.e505caba.svg",
-  "/static/css/main.000ed9ea.chunk.css",
-  "/static/js/2.chunk.js",
-  " /static/js/main.a17110f5.chunk.js",
+  "/web-fonts/css/all.min.css",
   "/images/icon-192x192.png",
   "/images/coins.svg",
-  "/web-fonts/webfonts/fa-solid-900.woff2",
-  "/web-fonts/webfonts/fa-brands-400.woff2",
-  "/web-fonts/css/all.min.css",
-  "https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2",
+  "https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-solid-900.woff2",
+  "https://pro.fontawesome.com/releases/v5.10.0/webfonts/fa-brands-400.woff2",
 ]
 
 // Install SW

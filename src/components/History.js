@@ -11,17 +11,12 @@ const History = () => {
         <div className="list">
           <ul className="history-list">
             {/* Include values from transactions array from context*/}
-            {transactions.map((transaction, index) => {
-              // Income and expense list item logic
-              let listClass = transaction.amount > 0
-
-              return (
-                <li className={listClass ? "income-item" : "expense-item"} key={index}>
-                  <span>{transaction.text}</span>
-                  <span>${transaction.amount}</span>
-                </li>
-              )
-            })}
+            {transactions.map((transaction, index) => (
+              <li key={index}>
+                <span>{transaction.text}</span>
+                <span>${transaction.amount}</span>
+              </li>
+            ))}
           </ul>
         </div>
         <div className="heading">

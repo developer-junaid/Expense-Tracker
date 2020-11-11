@@ -29,23 +29,47 @@ a {
   color: #163172;
 }
 
-img {
+i {
   width: 1.6rem;
-  height: 1.6rem;
+  height: auto;
   margin: 0.1rem;
   font-size: x-large;
 }
 
-img:hover {
+i:hover {
   transform: translateY(-2px);
   box-shadow: 1px 1px 6px gray;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.github {
+  color: black;
+}
+
+.linkedIn {
+  color: #0e76a8;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.gmail {
+  color: #bb001b;
+}
+
+.portfolio {
+  color: #00630a;
 }
 
 @media (max-width: 850px) {
   .icons-container {
     margin-right: 0rem;
   }
-  img {
+  i {
     width: 1.7rem;
     height: auto;
     margin: 0.3rem;
