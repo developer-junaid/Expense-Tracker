@@ -9,13 +9,14 @@ const filesToCache = [
   "/static/js/1.chunk.js",
   "/static/js/bundle.js",
   "/static/js/main.chunk.js",
+  "/static/js/main.5a9a5228.chunk.js",
   "/static/js/2.chunk.js",
   "/static/js/2.d8dcbfdf.chunk.js",
   "/static/js/3.bcbe146d.chunk.js",
-  "/static/js/main.5a9a5228.chunk.js",
 
   "/static/css/main.5bf085b9.chunk.css",
   "/static/css/main.f762c360.chunk.css",
+  "/static/css/main.f8829d32.chunk.css",
   "/static/css/3.2874e8ad.chunk.css",
   "/web-fonts/css/all.min.css",
 
