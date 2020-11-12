@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react"
+import React, { useContext } from "react"
 import "./../styles/css/history.css"
 import { TransactionContext } from "./../context/TransactionContext"
 
@@ -11,17 +11,12 @@ const History = () => {
         <div className="list">
           <ul className="history-list">
             {/* Include values from transactions array from context*/}
-            {transactions.map((transaction, index) => {
-              return (
-                <li
-                  className={transaction.amount > 0 ? "incomeItem" : "expenseItem"}
-                  key={index}
-                >
-                  <span>{transaction.text}</span>
-                  <span>${transaction.amount}</span>
-                </li>
-              )
-            })}
+            {transactions.map((transaction, index) => (
+              <li key={index}>
+                <span>{transaction.text}</span>
+                <span>${transaction.amount}</span>
+              </li>
+            ))}
           </ul>
         </div>
         <div className="heading">

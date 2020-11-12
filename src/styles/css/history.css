@@ -30,14 +30,7 @@
   margin: 1rem;
   color: #163172;
   font-weight: 600;
-}
-
-.incomeItem {
-  box-shadow: 1px 2px 3px #51a724, 3px 0px 1px #51a724;
-}
-
-.expenseItem {
-  box-shadow: 1px 2px 3px #b83b30, 3px 0px 1px #b83b30;
+  box-shadow: 1px 2px 3px #163172, 3px 0px 1px #163172;
 }
 
 .heading {
