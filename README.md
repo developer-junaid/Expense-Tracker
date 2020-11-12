@@ -1,37 +1,47 @@
 # Expense Tracker Web Application
 
-
 ### On PC
+
 <img src="./images/ExpenseTracker.png"/>
 
-
 ### On Mobile
+
 <img src="./images/ExpenseTrackerMobile.png"/>
 
-
 ### Lighthouse Performance Testing Result
+
 <img src="./images/lighthouse.png"/>
 
-
 ### link
+
 https://your-expense-tracker.web.app/
 
-### *An Expense Tracker Application that keeps track of your income and expenses*
+### _An Expense Tracker Application that keeps track of your income and expenses, You can install it on your devices (Mobile, Desktop)_
 
-## Task
-Built this app to practice and polish my HTML5, CSS3, Javascript-es6, and Web App Development Skills.
+## Functionalities
 
+- Add Income and Expenses
+- View Income, Expenses, Current Balance.
 
-## Functionality
- - Add and View Income
- - Add and View Expenses
- - View Current Balance
- - View History of All income and expenses
+## PWA Functionalities
 
-## Run Locally 
+- You can install it on PC, Mobile
+- Offline availablity
+- Push Notifications Services
 
-- Run this command `git clone https://github.com/qjunaid623/expenseTracker/`
-- You are now in the dev environment and you can play around 
+## Features
+
+- Secure
+- Accessibility Optimized
+- Fast
+- Less in size
+- SEO Optimized
+- Mobile Responsive
+
+## Run Locally
+
+- Run this command `git clone https://github.com/developer-junaid/expenseTracker/`
+- You are now in the dev environment and you can play around
 
 ## Tech Stack
 
@@ -39,7 +49,5 @@ Built this app to practice and polish my HTML5, CSS3, Javascript-es6, and Web Ap
 - CSS3
 - Javascript ES6
 - React
-- React Hooks
-- VS Code
-- Surge
-- Github Actions
+- Service Workers
+- Firebase hosting
