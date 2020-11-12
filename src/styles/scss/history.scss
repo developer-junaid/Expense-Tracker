@@ -30,9 +30,15 @@
   margin: 1rem;
   color: $primary-color;
   font-weight: 600;
-  box-shadow: 1px 2px 3px $primary-color, 3px 0px 1px $primary-color;
 }
 
+.incomeItem {
+  box-shadow: 1px 2px 3px $income-color, 3px 0px 1px $income-color;
+}
+
+.expenseItem {
+  box-shadow: 1px 2px 3px $expense-color, 3px 0px 1px $expense-color;
+}
 .heading {
   height: 10%;
   display: flex;
