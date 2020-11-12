@@ -1,9 +1,21 @@
 # Expense Tracker Web Application
 
-<img src="./images/expensetracker.png"/>
+
+### On PC
+<img src="./images/ExpenseTracker.png"/>
 
 
-http://your-expense-tracker.surge.sh/
+### On Mobile
+<img src="./images/ExpenseTrackerMobile.png"/>
+
+
+### Lighthouse Performance Testing Result
+<img src="./images/lighthouse.png"/>
+
+
+### link
+https://your-expense-tracker.web.app/
+
 ### *An Expense Tracker Application that keeps track of your income and expenses*
 
 ## Task
