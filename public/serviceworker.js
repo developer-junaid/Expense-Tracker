@@ -12,10 +12,12 @@ const filesToCache = [
   "/static/js/main.5a9a5228.chunk.js",
   "/static/js/2.chunk.js",
   "/static/js/2.d8dcbfdf.chunk.js",
+  "/static/js/main.a0a09953.chunk.js",
   "/static/js/3.bcbe146d.chunk.js",
 
   "/static/css/main.5bf085b9.chunk.css",
   "/static/css/main.f762c360.chunk.css",
+  "/static/css/main.1b6b4b23.chunk.css",
   "/static/css/main.f8829d32.chunk.css",
   "/static/css/3.2874e8ad.chunk.css",
   "/web-fonts/css/all.min.css",
@@ -25,7 +27,10 @@ const filesToCache = [
   "/images/coins.svg",
   "/static/media/coins.e505caba.svg",
 
+  "/images/icon-256x256.png",
+  "/images/icon-384x384.png",
   "/images/icon-192x192.png",
+  "/images/icon-512x512.png",
 
   "/web-fonts/webfonts/fa-solid-900.woff2",
   "/web-fonts/webfonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2",
