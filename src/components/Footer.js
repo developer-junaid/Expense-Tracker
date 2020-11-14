@@ -7,10 +7,10 @@ const Footer = () => {
       <h3>Developed by: Junaid Qureshi</h3>
 
       <div className="icons-container">
-        <a title='portfolio' href="http://junaid-qureshi.surge.sh/" rel="noopener noreferrer" target="_blank">
+        <a title='portfolio' href="https://developer-junaid.web.app/" rel="noopener noreferrer" target="_blank">
           <i className="fas fa-address-card portfolio"></i>
         </a>&nbsp;
-        <a title='github' href="https://github.com/qjunaid623/" rel="noopener noreferrer" target="_blank">
+        <a title='github' href="https://github.com/developer-junaid/" rel="noopener noreferrer" target="_blank">
           <i className="fab fa-github-square github"></i>
         </a>
         <a title='facebook' href="https://www.facebook.com/profile.php?id=100041078220896" rel="noopener noreferrer" target="_blank">
