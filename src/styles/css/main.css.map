@@ -4,8 +4,8 @@
     "sources": [
         "../scss/main.scss",
         "../scss/_resets.scss",
-        "../scss/__fonts.scss",
-        "../scss/__fonts.scss",
+        "../scss/_fonts.scss",
+        "../scss/_fonts.scss",
         "../scss/_variables.scss"
     ],
     "names": [],
