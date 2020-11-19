@@ -40,14 +40,15 @@
 
 ## Run Locally
 
-- Run this command `git clone https://github.com/developer-junaid/expenseTracker/`
+- Run this command `git clone https://github.com/developer-junaid/Expense-Tracker.git`
 - You are now in the dev environment and you can play around
 
 ## Tech Stack
 
 - HTML5
 - CSS3
-- Javascript ES6
-- React
+- Javascript +ES6
+- Sass
+- React Js
 - Service Workers
 - Firebase hosting
