@@ -16,7 +16,6 @@
 
 ### link : https://your-expense-tracker.web.app/
 
-### Youtube Video (Demo) : https://youtu.be/M-R0FnwUIBM
 
 ### _An Expense Tracker Application that keeps track of your income and expenses, You can install it on your devices (Mobile, Desktop)_
 
